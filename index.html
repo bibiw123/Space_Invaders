@@ -1,0 +1,24 @@
+    <!-- Utilisation du DOM (Document Object Model), le DOM rend le document HTML comme une API propre à elle même (Une API, pour Application programming interface, est un programme permettant à deux applications distinctes de communiquer entre elles et d’échanger des données. Cela évite notamment de recréer et redévelopper entièrement une application pour y ajouter ses informations. Par exemple, elle est là pour faire le lien entre des données déjà existantes et un programme indépendant,les API jouent ainsi le rôle de portes d’entrée dans un logiciel qui ne vous appartient pas..). Le DOM rend le document HTML en une arborescence qui permet en Js de pouvoir cibler tel ou tel élément. Du coup la page web devient dynamique grâce à un language de programmation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Space Invaders</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Space Invaders</h1>
+    <!-- Le canvas est un élément HTML qui permet de dessiner des formes géométriques. L'élément <canvas> crée une surface pour dessiner à grandeur fixe.
+    Ceci ressemble beaucoup à l'élément <img>. La seule différence est qu'il n'y a pas les attributs src et alt. L'élément <canvas> a seulement deux attributs : width et height (« largeur » et « hauteur »). Ces deux attributs sont optionnels et peuvent aussi être fixés à travers le DOM. Quand les attributs width et height ne sont pas spécifiés, le canvas sera initialement large de 300 pixels et haut de 150 pixels. Les dimensions du canvas peuvent être modifiés par du CSS, mais l'image sera dessinée selon les valeurs width et height du canvas et ensuite étirée pour afficher dans l'espace donné par le CSS.-->
+    <canvas id="game"></canvas>
+    <!-- Permet d'utiliser les imports exports en JS -->
+    <script type="module" src="script.js"></script>
+    
+</body>
+</html>
